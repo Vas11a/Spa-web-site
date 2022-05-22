@@ -6,6 +6,10 @@ $('.img-menu').click(function(e) {
 	$('.burg2').toggleClass('add-clas3')
 });
 
+$('.part').click(function(e) {
+	$('.nav').removeClass('add-clas')
+});
+
 $('.button-send').click(function() {
 		let name = $('.input-name').val();
 		let data = $('.input-data').val();
