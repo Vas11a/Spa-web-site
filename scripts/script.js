@@ -1,15 +1,11 @@
 
 
-$('.img-menu').click(function(e) {
+$('.img-menu , .nav ').click(function(e) {
 	$('.nav').toggleClass('add-clas')
 	$('.burg1').toggleClass('add-clas2')
 	$('.burg2').toggleClass('add-clas3')
 });
 
-$('.part').click(function(e) {
-	$('.nav').removeClass('add-clas')
-	$('.burg1').removeClass('add-clas2')
-});
 
 $('.button-send').click(function() {
 		let name = $('.input-name').val();
