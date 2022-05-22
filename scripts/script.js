@@ -8,6 +8,7 @@ $('.img-menu').click(function(e) {
 
 $('.part').click(function(e) {
 	$('.nav').removeClass('add-clas')
+	$('.burg1').removeClass('add-clas2')
 });
 
 $('.button-send').click(function() {
