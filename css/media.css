@@ -1,0 +1,205 @@
+
+@media screen and (max-width: 1250px ) {
+	.head-main{
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	.img-block{
+		justify-content: center;
+	}
+
+	.block-about{
+		display: none;
+	}
+
+	.about-block-text{
+		margin: 0 auto;
+		text-align: center;
+		width: 80%;
+		padding-top: 0;
+	}
+
+	.about-container{
+		padding-top: 0;
+		/*height: 300px;*/
+	}
+
+	.button-about{
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.about{
+		padding: 50px 10px;
+	}
+
+}
+
+@media screen and (max-width: 850px ) {
+	.head-img{
+		width: 250px;
+	}
+
+	.forma{
+		width: 80%;
+	}
+
+	.block-prices{
+		flex-direction: column;
+		gap: 100px;
+	}
+
+	.blog-container{
+		width: 100%;
+	}
+
+	.costumers-container{
+		width: 95%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 660px ) {
+	.nav{
+		position: absolute;
+		top: 20px;
+		right: 0;
+		flex-direction: column;
+		background-color: #E8DCD6;
+		width: 150px;
+		padding: 5px;
+		margin-right: 45px;
+		display: flex;
+		opacity: .9;
+		display: none;
+	}
+
+	.part{
+		align-self: flex-start;
+		font-size: 18px;
+	}
+
+	.head-main{
+		padding-top: 20px;
+	}
+
+	.burg1{
+		display: block;
+	}
+
+	.forma{
+		width: 100%;
+	}
+
+	.block-content{
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+
+	.block-inside {
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 550px ) {
+	.img-block{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.title{
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.form-block{
+		width: 100%;
+		padding-bottom: 50px;
+	}
+
+	.bloc-price{
+		width: 300px;
+		height: 300px;
+	}
+
+	.block-onprice{
+		width: 250px;
+		height: 300px;
+	}
+
+	.price-subTitle{
+		width: 100%;
+	}
+
+	.slider-part{
+		flex-direction: column;
+	}
+
+	.text-slide{
+		width: 95%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 420px ) {
+	.block-input{
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	input{
+		width: 100%;
+	}
+
+	.costumers{
+		padding: 50px 20px;
+	}
+}
+
+
+@media screen and (max-width: 350px ) {
+	.button-block{
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.button2{
+		margin-left: 0;
+	}
+
+	.header{
+		padding: 10px 10px 50px 10px;
+	}
+
+	.nav{
+		right: -40px;
+	}
+
+	.img-menu{
+		right: 5px;
+	}
+
+	.bloc-price{
+		width: 250px;
+		height: 300px;
+		
+	}
+
+	.block-onprice{
+		left: 0;
+	}
+
+	.costumers{
+		padding: 50px 10px;
+	}
+
+	.footer-content{
+		width: 100%;
+	}
+
+}
