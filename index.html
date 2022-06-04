@@ -51,22 +51,22 @@
 						<h2 class="form-title">Make Appointment</h2>
 						<div class="sub-title">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</div>
 					</div>
-					<form action="" class="forma">
+					<form action="scripts/index.php" method="post" class="forma">
 						<div class="block-input">
-							<input type="text" placeholder="name" class="input-name">
-							<input type="text" placeholder="email" class="input-email">
+							<input type="text" placeholder="name" name="name" class="input-name">
+							<input type="text" placeholder="email" name="email" class="input-email">
 						</div>
 						<div class="block-input">
-							<input type="text" placeholder="number" class="input-number">
-							<input type="text" placeholder="data" class="input-data">
+							<input type="text" placeholder="number" name="number" class="input-number">
+							<input type="text" placeholder="data" name="data" class="input-data">
 						</div>
 						<div class="block-input">
-							<input type="text" placeholder="time" class="input-time">
-							<input type="text"  placeholder="age" class="input-age">
+							<input type="text" placeholder="time" name="time" class="input-time">
+							<input type="text"  placeholder="age" name="age" class="input-age">
 						</div>
-						<textarea placeholder="message"></textarea>
+						<textarea placeholder="message" name="message"></textarea>
 
-						<div class="button-head button1 button-send">Send</div>
+						<input class="button-head button1 button-send" value="Send" type="submit">
 					</form>
 				</div>
 			</article>
