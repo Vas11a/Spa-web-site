@@ -7,7 +7,7 @@ $time = $_POST['time'];
 $age = $_POST['age'];
 $message = $_POST['message'];
 
-header('location: /index.html');
+header('location: https://vas11a.github.io/Spa-web-site/');
 
 // $send =  "<h2>All Datas</h2> Name: <div>$name</div> <br> Email: <div>$email</div> <br> Number: <div>$number</div> <br> Data: <div>$data</div> <br> Time: <div>$time</div> <br> Age: <div>$age</div> <br> MEssage: <div>$message</div>";
 
